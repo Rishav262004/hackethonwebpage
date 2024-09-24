@@ -1,0 +1,182 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+    background: linear-gradient(to right, #004466, #0077b6);
+    padding: 1em;
+    text-align: center;
+}
+
+.navbar a {
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    transition: color 0.3s;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+/* Header Section */
+.header {
+    background: url('https://images.unsplash.com/photo-1508014680670-290fde777dbf') no-repeat center center/cover;
+    padding: 100px 0;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    font-family: 'Arial Black', sans-serif;
+}
+
+.header-content p {
+    font-size: 1.5em;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #ffcc00;
+    color: #004466;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s; /* Added transform for smooth movement */
+}
+
+.button:hover {
+    background-color: #ffc107; /* Lighter yellow on hover */
+    transform: translateY(10px); /* Moves the button 10px down on hover */
+}
+
+.button:hover {
+    background-color: #ffc107;
+}
+
+/* Section Styling */
+.section-title {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #004466;
+    text-align: center;
+}
+
+/* Thematic Areas Section */
+.thematic-areas ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.thematic-areas li {
+    background-color: #f0f8ff;
+    padding: 15px;
+    margin: 10px 0;
+    font-size: 1.2em;
+    border-left: 4px solid #0077b6;
+}
+
+/* Timeline Table */
+.timeline-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.timeline-table th, .timeline-table td {
+    border: 1px solid #0077b6;
+    padding: 15px;
+    text-align: center;
+}
+
+.timeline-table th {
+    background-color: #0077b6;
+    color: white;
+    font-weight: bold;
+}
+
+.timeline-table td {
+    background-color: #f0f8ff;
+}
+
+/* Form Styling */
+.form-container {
+    padding: 50px;
+    background-color: #f4f9ff;
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.form-container label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.form-container input, .form-container select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-container input[type="submit"] {
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #005f99;
+}
+
+/* Footer Section */
+.footer {
+    background-color: #004466;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .header-content h1 {
+        font-size: 2em;
+    }
+
+    .header-content p {
+        font-size: 1.2em;
+    }
+
+    .timeline-table, .form-container {
+        width: 100%;
+        padding: 20px;
+    }
+}
